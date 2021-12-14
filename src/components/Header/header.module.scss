@@ -1,1 +1,19 @@
-// TODO
+.container {
+  width: 100%;
+  height: 105px;
+}
+
+.content {
+  width: 700px;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+}
+
+.content a {
+  display: flex;
+}
+
+.image {
+  align-self: center;
+}
