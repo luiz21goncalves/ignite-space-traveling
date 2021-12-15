@@ -78,7 +78,7 @@ export default function Home(props: HomeProps) {
             data: { author, title, subtitle },
           }) => (
             <div key={uid} className={styles.post}>
-              <Link href={`/post/${uid}`} passHref>
+              <Link href={`/post/${uid}`} passHref prefetch>
                 <a className={styles.postHeader}>
                   <strong>{title}</strong>
                   <p>{subtitle}</p>
@@ -120,7 +120,7 @@ export const getStaticProps: GetStaticProps<HomeProps> = async () => {
     [Prismic.Predicates.at('document.type', 'posts')],
     {
       fetch: ['posts.slug', 'posts.title', 'posts.subtitle', 'posts.author'],
-      pageSize: 1,
+      pageSize: 10,
     }
   );
 
