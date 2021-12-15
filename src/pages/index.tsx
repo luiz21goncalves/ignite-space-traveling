@@ -85,13 +85,13 @@ export default function Home(props: HomeProps) {
                 </a>
               </Link>
 
-              <div className={styles.postFooter}>
-                <div className={styles.postFooterContent}>
+              <div className={commonStyles.iconsConteiner}>
+                <div className={commonStyles.iconContent}>
                   <CalendarIcon />
                   <time>{first_publication_date}</time>
                 </div>
 
-                <div className={styles.postFooterContent}>
+                <div className={commonStyles.iconContent}>
                   <UserIcon />
                   <span>{author}</span>
                 </div>

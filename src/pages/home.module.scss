@@ -34,33 +34,6 @@
   color: #D7D7D7;
 }
 
-.postFooter {
-  display: flex;
-  align-items: center;
-}
-
-.postFooterContent {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.postFooterContent + .postFooterContent {
-  margin-left: 24px;
-}
-
-.postFooterContent svg {
-  width: 20px;
-  height: 20px;
-  margin-right: 8px;
-}
-
-.postFooterContent span, .postFooterContent time {
-  color: #BBBBBB;
-  font-size: 14px;
-  line-height: 17px;
-}
-
 .buttonLink {
   background: transparent;
   border: 0;
@@ -68,5 +41,5 @@
   font-size: 18px;
   line-height: 22px;
   color: #FF57B2;
-  margin: 64px 0 80px;
+  margin-top: 64px;
 }

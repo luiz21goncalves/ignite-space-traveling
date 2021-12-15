@@ -1,5 +1,32 @@
 // TODO
 .container {
   width: 700px;
-  margin: 0 auto;
+  margin: 0 auto 80px;
+}
+
+.iconsConteiner {
+  display: flex;
+  align-items: center;
+}
+
+.iconContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.iconContent + .iconContent {
+  margin-left: 24px;
+}
+
+.iconContent svg {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+.iconContent span, .iconContent time {
+  color: #BBBBBB;
+  font-size: 14px;
+  line-height: 17px;
 }
